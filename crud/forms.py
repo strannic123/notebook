@@ -5,4 +5,4 @@ class MyUserForm(forms.ModelForm):
 
     class Meta:
         model = MyUser
-        fields = [__all__]
+        fields = ['name', 'last_name', 'phone']
